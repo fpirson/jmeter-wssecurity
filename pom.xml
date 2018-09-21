@@ -18,19 +18,6 @@
 		<developerConnection>scm:git:git@github.com:tilln/jmeter-wssecurity.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
-
-	<distributionManagement>
-		<repository>
-			<id>releasesngba.repo</id>
-			<url>https://dev.mycarenet.be/nexus/content/repositories/releases-ngba</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshotsngba.repo</id>
-			<url>https://dev.mycarenet.be/nexus/content/repositories/snapshots-ngba</url>
-			<uniqueVersion>false</uniqueVersion>
-		</snapshotRepository>
-	</distributionManagement>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.wss4j</groupId>
